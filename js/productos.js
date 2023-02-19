@@ -10,7 +10,7 @@ let productos = [
         tipo:"servicio",
         nombre:"Chopera de Hielo. 100 lts por hora.",
         cantidad: 1, 
-        precio: 49,
+        precio: "$49",
         imagen: "img/TIRADOR-NEGRO.jpg",
         filtro: ["filter-servicios", "filter-hielo"],
         litros: [0]
@@ -21,7 +21,7 @@ let productos = [
         tipo:"servicio",
         nombre:"Chopera eléctica. Bajo consumo.",
         cantidad: 1, 
-        precio: 79,
+        precio: "$79",
         imagen: "img/chopera-electrica.png",
         filtro: ["filter-servicios", "filter-electrica"],
         litros: [0]
@@ -32,7 +32,7 @@ let productos = [
         tipo:"bien",
         nombre:"Cerveza Tyris IPA. Sixpack.",
         cantidad: 1, 
-        precio: 8,
+        precio: "$8",
         imagen: "img/tyris-ipa.png",
         filtro: ["filter-bienes", "filter-barril","filter-hielo"],
         litros: [10, 15, 20, 25, 35]  
@@ -43,7 +43,7 @@ let productos = [
         tipo:"bien",
         nombre:"Cerveza Brexit English IPA. Sixpack.",
         cantidad: 1, 
-        precio: 8,
+        precio: "$8",
         imagen: "img/brexit english ipa.png",
         filtro: ["filter-bienes", "filter-barril"],
         litros: [10, 15, 20, 25, 35]  
@@ -53,7 +53,7 @@ let productos = [
         tipo:"bien",
         nombre:"Cerveza Ballut Honey. Sixpack.",
         cantidad:1, 
-        precio: 8,
+        precio: "$8",
         imagen: "img/ballut honey.png",
         filtro: ["filter-bienes", "filter-barril"],
         litros: [10, 15, 20, 25, 35]  
@@ -62,8 +62,8 @@ let productos = [
         id: 6,
         tipo:"bien",
         nombre:"Cerveza Eikois  NE IPA. Sixpack.",
-        cantidad:1, 
-        precio: 9,
+        cantidad: 1, 
+        precio: "$9",
         imagen: "img/Eikois neipa.png",
         filtro: ["filter-bienes", "filter-barril"],
         litros: [10, 15, 20, 25, 35]  
